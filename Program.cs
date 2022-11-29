@@ -1,4 +1,4 @@
-﻿// See 
+﻿// Программа из имеющегося массива строк формирует новый массив строк, длина которых меньше или равна 3
 int size = 8;
 int n = 3;
 string[] arrayFirst = new string[size];
@@ -55,6 +55,6 @@ string[] TransferElements(string[] arr)
             arraySecond[j] = arr[i];
             j++;
        }   
-    }
+           }
 return arraySecond;
 }
